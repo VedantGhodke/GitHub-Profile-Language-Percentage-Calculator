@@ -1,11 +1,9 @@
-
-
-[![github-profile-languages](https://github.com/VEDANTGHODKE/GitHub-Profile-Language-Percentage-Calculator/blob/master/Vedant%20Ghodke%20-%20GitHub%20Language%20Percentage.png)
-
-
 # GitHub Profile Languages
 
 This application is for all GitHub users to create a nice pie chart of their programming languages from their GitHub profile.
+
+
+![github-profile-languages](https://github.com/VEDANTGHODKE/GitHub-Profile-Language-Percentage-Calculator/blob/master/Vedant%20Ghodke%20-%20GitHub%20Language%20Percentage.png)
 
 
 ## How to Use
