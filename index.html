@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-white">
+    <head>
+        <meta charset="UTF-8">
+        <title>Vedant Ghodke - GitHub Profile Language Percentage Calculator</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8">
+        <script src="js/url.min.js"></script>
+        <script src="js/main.js"></script>
+      <link rel="icon" type="image/png" href="logo.png">
+      <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Raleway&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body class="bg-white">
+        <div class="container text-center">
+            <div class="content mrg-xl pad-xl">
+                <h1><span class="username"></span> Language Percentage</h1>
+                <p>Create a nice and useful pie chart of a GitHub the user's programming languages from their GitHub profile.</p>
+                <input class="form-elm" type="text" placeholder="@someone" autofocus="autofocus"><br>
+                <iframe id="graph" src="api.html" frameborder="0"></iframe><br>
+                <button data-popup=".popup.share" class="share btn bg-green"><i class="fa fa-share-alt"></i> Share </button>
+                <button data-popup=".popup.embed" class="embed btn bg-green"><i class="fa fa-code"></i> Embed </button>
+                <a href="https://github.com/VEDANTGHODKE/GitHub-Profile-Language-Percentage-Calculator" class="btn bg-green"><i class="fa fa-github"></i> Source Code </a>
+            </div>
+            <div class="popup embed">
+                <div class="popup-content">
+                    <textarea class="form-elm"></textarea>
+                    <button class="close btn bg-white">Close</button>
+                </div>
+            </div>
+            <div class="popup share">
+                <div class="popup-content">
+                    <div class="social">
+                        <a class="twitter" target="blank">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a class="facebook" target="blank">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a class="instagram" target="blank">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        <a class="linkedin" target="blank">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <button class="close btn bg-white">Close</button>
+                </div>
+            </div>
+            <p class="footer">
+                Developed and Designed by <a href="http://vedantghodke.github.io/">Vedant Ghodke</a>
+            </p>
+        </div>
+    </body>
+</html>
